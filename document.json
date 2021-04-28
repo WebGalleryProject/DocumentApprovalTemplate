@@ -1,0 +1,40 @@
+{
+    "name": "проведение каких-нибудь работ",
+    "date": "24.01.2020",
+    "steps": [
+        {
+            "operation": "and",
+            "members": [
+                {
+                    "user": "U1",
+                    "decision": ""
+                },
+                {
+                    "user": "U2",
+                    "decision": ""
+                }
+            ]
+        },
+        {
+            "operation": "or",
+            "members": [
+                {
+                    "user": "U2",
+                    "decision": ""
+                },
+                {
+                    "user": "U3",
+                    "decision": ""
+                }
+            ]
+        },
+        {
+            "members": [
+                {
+                    "user": "U1",
+                    "decision": ""
+                }
+            ]
+        }
+    ]
+}

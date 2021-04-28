@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<name>проведение каких-нибудь работ</name>
+	<date>24.01.2020</date>
+	<steps>
+		<operation>and</operation>
+		<members>
+			<user>U1</user>
+			<decision></decision>
+		</members>
+		<members>
+			<user>U2</user>
+			<decision></decision>
+		</members>
+	</steps>
+	<steps>
+		<operation>or</operation>
+		<members>
+			<user>U2</user>
+			<decision></decision>
+		</members>
+		<members>
+			<user>U3</user>
+			<decision></decision>
+		</members>
+	</steps>
+	<steps>
+		<members>
+			<user>U1</user>
+			<decision></decision>
+		</members>
+	</steps>
+</root>
